@@ -103,6 +103,7 @@ button{
     color: #f7e4d4;
     letter-spacing: 0.2em;
     border-radius: 50px;
+    border: none;
 }
 .button-container{
     text-align: center;
