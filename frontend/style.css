@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'EBGaramond-Regular';
+    src: url(fonts/EBGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url(fonts/Montserrat-Medium.ttf);
+}
+
+
+
+
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background-color: #f7e4d4;
+}
+
+
+h1{
+    font-family: 'EBGaramond-Regular';
+    font-weight: normal;
+    font-size: 48px;
+    color:#467745;
+    text-align: center;
+    margin: 20px;
+}
+@media screen and (max-width: 520px) {
+    h1{
+        font-size: 36px;
+        text-align:left;
+}
+    }
+
+input.text{
+    font-family: 'Montserrat-Medium';
+    font-weight: 500;
+    font-size: 16px;
+    max-width: 480px;
+    height:64px;
+    width: 100%;
+    color:#467745;
+    margin-bottom: 25px;
+}
+@media  screen and (max-width:520px) {
+    input.text{
+        width:calc(100%-40px);
+        margin-left:20px;
+    }
+}
+
+textarea{
+    font-family:'Montserrat-Medium';
+    font-weight: 500;
+    font-size: 16px;
+    max-width: 480px;
+    height: 120px;
+    max-height: 120px;
+    width: 100%;
+    color: #467745;
+    margin-bottom: 20px;
+    resize: none;
+
+}
+@media  screen and (max-width:520px) {
+    textarea{
+        width:calc(100%-40px);
+        margin-left:20px;
+    }
+}
+.checkboxflex{
+    display: flex;
+    flex-direction:row;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat-Medium';
+    font-weight: 500;
+    font-size: 16px;
+    color: #467745;
+    margin-bottom: 30px;
+}
+
+
+@media  screen and (max-width:520px) {
+    .checkboxflex{
+        margin-left:20px;
+    }
+}
+
+a{
+    color: #467745;
+}
+
+button{
+    font-family: 'EBGaramond-Regular';
+    font-weight: normal;
+    font-size: 21px;
+    width: 280px;
+    max-width:280px;
+    height: 80px;
+    background-color: #467745;
+    color: #f7e4d4;
+    letter-spacing: 0.2em;
+    border-radius: 50px;
+}
+.button-container{
+    text-align: center;
+}
