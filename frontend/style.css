@@ -48,9 +48,10 @@ input.text{
     margin-bottom: 25px;
 }
 @media  screen and (max-width:520px) {
-    input.text{
+    .input{
         width:calc(100%-40px);
         margin-left:20px;
+        margin-right:20px;
     }
 }
 
@@ -65,14 +66,9 @@ textarea{
     color: #467745;
     margin-bottom: 20px;
     resize: none;
+}
 
-}
-@media  screen and (max-width:520px) {
-    textarea{
-        width:calc(100%-40px);
-        margin-left:20px;
-    }
-}
+
 .checkboxflex{
     display: flex;
     flex-direction:row;
@@ -88,6 +84,7 @@ textarea{
 @media  screen and (max-width:520px) {
     .checkboxflex{
         margin-left:20px;
+        margin-right:20px;
     }
 }
 

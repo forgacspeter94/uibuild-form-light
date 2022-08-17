@@ -3,7 +3,9 @@ console.log ('Hello World');
 function textComponent (){
     return `
     <h1> Visszajelzés </h1>
+    <div class="input">
     <input type="text" class="text" placeholder="Tárgy">
+    </div>
     <div class="input">
     <textarea cols="30" rows="10" placeholder="Megjegyzés"></textarea>
     </div>
